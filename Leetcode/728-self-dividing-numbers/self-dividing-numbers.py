@@ -8,10 +8,9 @@ class Solution(object):
             content=True
             while(temp>0):
                 digit=temp%10
-                if(digit==0):
+                if(digit==0 or original%digit!=0):
                      content=False
                      break
-                if(original%digit!=0):content=False
                 temp//=10
             if(content==True):list2.append(left)
             left+=1
