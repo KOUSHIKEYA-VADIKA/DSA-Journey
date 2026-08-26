@@ -15,8 +15,6 @@ class Solution(object):
                         l.append(p)
                         sum+=i+p
         sum=sum+1
-        if(sum==original):
-            return True
-        else :
-            return False
+        if(sum==original):return True
+        else :return False
        
