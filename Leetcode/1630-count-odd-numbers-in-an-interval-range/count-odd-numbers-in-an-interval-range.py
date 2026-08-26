@@ -1,15 +1,8 @@
 class Solution(object):
     def Odd(self,k):
-        if(k%2!=0):
-            return True
-        else :
-            return False
+        if(k%2!=0):return True
+        else :return False
     def countOdds(self, low, high):
-        """
-        :type low: int
-        :type high: int
-        :rtype: int
-        """
         x=self.Odd(low)
         y=self.Odd(high)
         count=0
