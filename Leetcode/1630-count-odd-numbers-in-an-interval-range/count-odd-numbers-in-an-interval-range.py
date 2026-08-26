@@ -15,14 +15,9 @@ class Solution(object):
         count=0
 
         if(low<=10**9 and low>=0 and high<=10**9 and high>=0 ):
-            if(x==True and y==True):
-                count=((high-low)/2)+1
-            elif(x==True and y==False):
-                count=((high-low)+1)//2
-            elif(x==False and y==False):
-                count=(high-low)//2
-            elif(x==False and y==True):
-                count=((high-low)//2)+1
+            if(x==True and y==True):count=((high-low)/2)+1
+            elif(x==True and y==False or x==False and y==False):count=((high-low)+1)//2
+            elif(x==False and y==True):count=((high-low)//2)+1
         return count
             
                 
