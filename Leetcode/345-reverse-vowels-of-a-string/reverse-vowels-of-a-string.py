@@ -8,10 +8,8 @@ class Solution(object):
                 s[left],s[right]=s[right],s[left]
                 right-=1
                 left+=1
-            elif s[left] not in "aeiouAEIOU":
-                left+=1
-            elif s[right] not in "aeiouAEIOU":
-                right-=1
+            elif s[left] not in "aeiouAEIOU":left+=1
+            elif s[right] not in "aeiouAEIOU":right-=1
         s=''.join(s)
         return s
         
