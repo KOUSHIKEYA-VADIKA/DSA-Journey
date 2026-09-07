@@ -8,7 +8,7 @@ class Solution(object):
             area=abs(width*minimum)
             if(area>maxwater):maxwater=area
             if(height[left]<=height[right]):left+=1
-            else :right-=1
+            else :right-=1 
         return maxwater
 
 
