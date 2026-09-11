@@ -8,7 +8,7 @@ class Solution(object):
         while(num>0):
             lastdigit=num%10
             rev=(rev*10)+lastdigit
-            num//=10
+            num//=10 
         if(original<0):
             return False
         elif(original==rev):
