@@ -42,5 +42,5 @@ Each solution includes:
 - Python Implementation
 
 ## 🚀 Platforms
-- LeetCode
+- LeetCode. 
 - Striver A2Z Sheet
