@@ -7,10 +7,7 @@ class Solution(object):
         """
         nums1=set(nums1)
         nums2=set(nums2)
-        seen=[]
-        for i in nums1:
-            if i in nums2:seen.append(i)
-        return seen
+        return list(nums1 &nums2)
         
     
         
