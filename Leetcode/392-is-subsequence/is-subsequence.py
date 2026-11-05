@@ -8,7 +8,7 @@ class Solution(object):
                     seen.append(s[j])
                     j+=1
         seen="".join(seen)
-        if s in seen:
+        if s == seen:
             return True
         else:return False
 
