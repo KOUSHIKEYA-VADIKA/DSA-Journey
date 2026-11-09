@@ -11,6 +11,6 @@ class Solution(object):
             if nums[i] in seen:
                 return True
             seen.add(nums[i])
-            if len(seen) > k:
+            if i >= k:
                 seen.remove(nums[i-k])
         return False
